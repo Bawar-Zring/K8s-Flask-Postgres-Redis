@@ -11,7 +11,7 @@ What i did?
 - creating Persistent Volume(pv) & bound it to Persistent Volume Claim(pvc)
 
   --------
-How to run?
+# How to deploy?
 - make sure minikube up and running ``` minikube status ```, if not ``` minikube start```.
 1. after clone this repo simply run this command: ``` kubectl apply -f k8s/ ```.
 2. check three pods are running ``` kubectl get pods ```.
